@@ -1,0 +1,6 @@
+theme = "term16_dark"
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "hidden"
