@@ -1,4 +1,4 @@
-theme = "term16_dark"
+theme = "mocha_modified"
 
 [editor.cursor-shape]
 normal = "block"
