@@ -67,8 +67,8 @@
 "ui.linenr" = { fg = "surface1" }
 "ui.linenr.selected" = { fg = "lavender" }
 
-"ui.statusline" = { fg = "base", bg = "mantle" }
-"ui.statusline.inactive" = { fg = "surface2", bg = "mantle" }
+"ui.statusline" = { fg = "base", bg = "mantle", modifiers = ["bold"] }
+"ui.statusline.inactive" = { fg = "surface2", bg = "surface0" }
 "ui.statusline.normal" = { fg = "base", bg = "lavender", modifiers = ["bold"] }
 "ui.statusline.insert" = { fg = "base", bg = "green", modifiers = ["bold"]  }
 "ui.statusline.select" = { fg = "base", bg = "flamingo", modifiers = ["bold"]  }
@@ -87,7 +87,7 @@
 
 "ui.virtual" = "overlay0"
 "ui.virtual.ruler" = { bg = "surface0" }
-"ui.virtual.indent-guide" = "surface0"
+"ui.virtual.indent-guide" = "surface1"
 "ui.virtual.inlay-hint" = { fg = "base", bg = "mantle" }
 "ui.virtual.jump-label" = { fg = "rosewater", modifiers = ["bold"] }
 
