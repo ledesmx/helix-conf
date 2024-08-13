@@ -1,6 +1,14 @@
 theme = "mocha_modified"
 
+[editor]
+shell = ["fish", "-c"]
+
 [editor.cursor-shape]
 normal = "block"
 insert = "bar"
 select = "hidden"
+
+[editor.indent-guides]
+render = true
+character = "▏"
+skip-levels = 1
